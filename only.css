@@ -1,0 +1,31 @@
+@media only screen and (max-width:412px) {
+    header {
+        flex-direction: column;
+    }
+    nav a {
+        font-size: smaller;
+    }
+    .header-navegacao {
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    .header-navegacao a {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 100%;
+    }
+    .cursos {
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media only print {
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
