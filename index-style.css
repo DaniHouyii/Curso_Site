@@ -1,0 +1,122 @@
+@import url(color.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {background-color: var(--cor-primaria)
+    
+}
+
+header {
+
+    height: 8rem;
+    background-color: #2d3642;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 60%;
+}
+
+.header-navegacao * {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.header-navegacao *:hover {
+    color: var(--cor-quartenaria);
+    transform: scale(1.10)
+}
+
+.header-navegacao {
+    display: flex;
+}
+
+.header-navegacao a:nth-child(1) {
+
+
+    text-decoration: underline;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: var(--cor-terciaria);
+        text-align:center;
+} 
+
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.cursos {
+    display: flex;
+    gap: 20px;
+    padding: 4rem;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.cursos h2 {
+    color: var(--black);
+}
+
+.cursos p {
+    color: var(--black);
+}
+.cursos__cartao {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--white);
+    border-radius: 24px;
+    border: solid 2px var(--cor-primaria);
+    align-content: center;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    height: 10rem;
+    margin-left: 58px;
+}
+
+.cursos__cartao:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; gap: 50px;
+    padding: 6rem;
+background: linear-gradient(180deg, rgba(9,9,121,1) 3%, rgba(0,212,255,1) 100%);
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-links a { color: aliceblue;}
+
+.footer-links h2{ margin-bottom: 2rem;}
