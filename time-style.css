@@ -1,0 +1,135 @@
+@import url(../color.css);
+
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+}
+
+header {
+
+    height: 8rem;
+    background-color: #2d3642;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 60%;
+}
+
+.header-navegacao * {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.header-navegacao *:hover {
+    color: var(--cor-quartenaria);
+    transform: scale(1.10)
+}
+
+.header-navegacao {
+    display: flex;
+}
+
+.header-navegacao a:nth-child(2) {
+
+
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    color: white;
+    margin-top: 2rem;
+}
+
+.especialistas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.especialistas_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.especialistas_cartoes {
+    border: solid 2px var(--cor-terciaria);
+    width: 30rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.especialistas_cartoes:hover {
+    transform: scale(1.01);
+    box-shadow: 7px 7px #3b3838;
+}
+
+.especialistas_fotos {
+    width: 100%;
+    height: 80%;
+}
+
+.especialistas_rodape {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.especialistas_rodape_informacoes {
+    color: #00ADB5;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; gap: 50px;
+    padding: 6rem;
+    background: linear-gradient(180deg, #232c38 3%, #EEEEEE 100%);
+}
+
+footer h2 {
+    color: white;
+    font-size: larger;
+}
+footer p {
+    color: white;
+    font-size: larger;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a { 
+    color: black;
+    font-size: larger;
+}
+
+.footer-links h2 { 
+    margin-bottom: 2rem;
+}
