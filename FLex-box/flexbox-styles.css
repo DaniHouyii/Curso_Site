@@ -1,0 +1,26 @@
+.area-flexbox {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+align-content: flex-start;
+
+
+}
+
+.bloco {
+    background-color: rgb(75, 185, 75);
+    width: 10rem;
+    border: solid 2px black;
+}
+
+.bloco-impar {
+    height: 10rem;
+    background-color: bisque;
+}
+
+.bloco-par {
+    height: 10rem;
+}
